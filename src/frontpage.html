@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Daily Globe — Monday 23 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; }
+  body {
+    background: #fdfcf6; color: #1d1a15;
+    font-family: 'Times New Roman', Georgia, serif;
+    padding: 3px 14px 1px;
+  }
+  .topbar {
+    display: flex; align-items: center; gap: 10px;
+    font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800;
+    letter-spacing: 1.5px; color: #5c5546; text-transform: uppercase;
+    border-bottom: 1px solid #1d1a15; padding-bottom: 2px;
+  }
+  .topbar .spacer { flex: 1; }
+  .check {
+    font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800;
+    color: #fdfcf6; background: #7a1f2b; border-radius: 3px; padding: 3px 7px;
+    letter-spacing: 0.5px; white-space: nowrap;
+  }
+  .nameplate { text-align: center; padding: 2px 0 1px; }
+  .tagline {
+    font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 6px;
+    color: #7a1f2b; text-transform: uppercase; font-weight: 700;
+  }
+  .nameplate h1 { font-size: 42px; line-height: 1; font-weight: 900; letter-spacing: 2px; margin-top: 1px; }
+  .rule-double { border-top: 3px double #1d1a15; margin-top: 2px; }
+  .cover { padding: 2px 0 2px; border-bottom: 2px solid #1d1a15; }
+  .kicker {
+    font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800;
+    letter-spacing: 2px; color: #7a1f2b; text-transform: uppercase;
+  }
+  .headline { font-size: 19px; line-height: 1.02; font-weight: 900; margin: 2px 0 3px; }
+  .deck { display: flex; gap: 16px; }
+  .deckcol { flex: 1; font-family: Arial, Helvetica, sans-serif; font-size: 9.5px; line-height: 1.2; color: #2e2a22; }
+  .deckcol .src { font-size: 8px; letter-spacing: 1px; color: #5c5546; font-weight: 700; }
+  .timeline { padding: 2px 0; border-bottom: 2px solid #1d1a15; }
+  .timelabel {
+    display: block; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800;
+    letter-spacing: 1.5px; color: #7a1f2b; margin-bottom: 2px;
+  }
+  .slots { display: flex; gap: 10px; }
+  .slot { flex: 1; border-left: 1px solid #d8cdb2; padding-left: 8px; }
+  .slot:first-child { border-left: none; padding-left: 0; }
+  .slotime {
+    display: block; font-family: Arial, Helvetica, sans-serif; font-size: 11px;
+    font-weight: 800; color: #7a1f2b; margin-bottom: 1px;
+  }
+  .slottext { display: block; font-size: 8px; line-height: 1.15; }
+  .grid { display: flex; gap: 10px; margin-top: 2px; }
+  .desk { flex: 1; min-width: 0; }
+  .desk + .desk { border-left: 1px solid #d8cdb2; padding-left: 10px; }
+  .deskhead {
+    font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800;
+    letter-spacing: 1px; color: #7a1f2b; text-transform: uppercase;
+    border-bottom: 2px solid #1d1a15; padding-bottom: 1px; margin-bottom: 2px;
+  }
+  .item { padding-bottom: 1px; border-bottom: 1px solid #e3dcc4; font-size: 10px; line-height: 1.1; }
+  .num {
+    font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-weight: 800;
+    color: #7a1f2b; margin-right: 4px;
+  }
+  .title { display: inline; font-size: 9px; line-height: 1.05; font-weight: 900; }
+  .text { font-size: 8px; line-height: 1.02; color: #2e2a22; margin-top: 1px; }
+  .src {
+    font-family: Arial, Helvetica, sans-serif; font-size: 7px; font-weight: 700;
+    letter-spacing: 1px; color: #5c5546;
+  }
+  .stats { background: #1b2a4a; color: #fdfcf6; padding: 5px 7px; border-bottom: none; }
+  .stats .num { color: #e8c15a; }
+  .stats .title { color: #e8c15a; }
+  .stats .text { color: #e9e2cd; }
+  .stats .src { color: #a9b8c8; }
+  .footnote {
+    margin-top: 2px; border-top: 1px solid #1d1a15; padding-top: 2px;
+    text-align: center; font-family: Arial, Helvetica, sans-serif;
+    font-size: 7.5px; letter-spacing: 1.2px; color: #5c5546; text-transform: uppercase;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <span>Monday, 23 November 2026</span>
+    <span class="spacer"></span>
+    <span>50 sourced stories</span>
+    <span class="spacer"></span>
+    <span class="check">&#10003; DATE CHECK: Monday 23 November 2026</span>
+  </div>
+
+  <header class="nameplate">
+    <div class="tagline">The world &mdash; one day, one page</div>
+    <h1>THE DAILY GLOBE</h1>
+  </header>
+  <div class="rule-double"></div>
+
+  <section class="cover">
+    <div class="kicker">01 &middot; Markets &middot; Nvidia, Santa Clara</div>
+    <h2 class="headline">NVIDIA REINSTATES HUANG AS CEO; SHARES JUMP ABOUT 33%</h2>
+    <div class="deck">
+      <p class="deckcol">Nvidia&rsquo;s board unanimously reinstated Jensen Huang as chief executive and chair on Monday, 11 days after he resigned over an affair with a woman US intelligence suspects of spying for China. Shares rose more than 30% and the Nasdaq gained 6.5%. <span class="src">FRANCE 24 / CNBC</span></p>
+      <p class="deckcol">President Trump said he made the deal and gave the board assurances. Democrats and some Republicans want Huang to testify before Congress, and the S&amp;P 500 rose 4.73% as US stocks rebounded from the AI sell-off. <span class="src">GUARDIAN / CNBC / BBC</span></p>
+    </div>
+  </section>
+
+  <div class="timeline">
+    <span class="timelabel">The day in UTC &mdash; times approximate</span>
+    <div class="slots"><div class="slot"><span class="slotime">~01:00</span><span class="slottext">Brent crude slides nearly 4% as Gulf supply returns</span></div><div class="slot"><span class="slotime">~06:00</span><span class="slottext">Ukraine says it sank the Russian corvette Merkury at Benghazi</span></div><div class="slot"><span class="slotime">~10:00</span><span class="slottext">Nvidia reinstates Jensen Huang; shares jump about 33%</span></div><div class="slot"><span class="slotime">~13:00</span><span class="slottext">Spain&rsquo;s Supreme Court grants Puigdemont amnesty</span></div><div class="slot"><span class="slotime">~16:00</span><span class="slottext">US stocks rebound; S&amp;P 500 up 4.73% after the sell-off</span></div><div class="slot"><span class="slotime">~19:00</span><span class="slottext">Liverpool beat Manchester United 4-0 in Pochettino&rsquo;s debut</span></div></div>
+  </div>
+
+  <div class="grid">
+    <div class="desk"><div class="deskhead">Politics &amp; Diplomacy</div><div class="item"><span class="num">02</span><h4 class="title">Iran vows to use all means against US naval blockade</h4><p class="text">Iran vowed to end the US naval blockade by all available means; Iranian media reported three tankers exploded after hitting mines in the Strait of Hormuz.</p><span class="src">CBS / AL JAZEERA / NZZ</span></div><div class="item"><span class="num">03</span><h4 class="title">Trump calls Putin &lsquo;my friend&rsquo; after Shenzhen summit</h4><p class="text">Trump called Putin his friend after meeting him and Xi Jinping in Shenzhen; Zelensky called Putin a killer in response.</p><span class="src">PBS / CBC</span></div><div class="item"><span class="num">04</span><h4 class="title">NATO meeting in Berlin warns Russia; space defence pledged</h4><p class="text">NATO ended its Berlin meeting saying it will defend every inch of its territory, including against threats in space.</p><span class="src">SCMP / JAPAN TIMES / TAGESSCHAU</span></div><div class="item"><span class="num">05</span><h4 class="title">EU proposes 22nd sanctions package against Russia</h4><p class="text">The European Commission proposed a 22nd package banning Russian flags at EU sports events, barring visas for former Russian combatants and targeting cryptocurrencies.</p><span class="src">SCMP / GUARDIAN / EL PA&Iacute;S</span></div><div class="item"><span class="num">06</span><h4 class="title">US sanctions Iranian &lsquo;shadow banking&rsquo; networks</h4><p class="text">The US Treasury sanctioned eight people and 22 entities linked to Iran, in Iran, the UAE, Turkey and Hong Kong, citing billions in suspicious transactions.</p><span class="src">AL JAZEERA / STRAITS TIMES / LE MONDE</span></div><div class="item"><span class="num">07</span><h4 class="title">Nepal PM Balen Shah visits India; India pledges aid</h4><p class="text">Nepal&rsquo;s PM Balendra Shah visited New Delhi on his first foreign trip; India pledged about $1.6 billion for rebuilding after deadly floods.</p><span class="src">AL JAZEERA / BBC / EURONEWS</span></div><div class="item"><span class="num">08</span><h4 class="title">Kenya and DR Congo agree to restore ties</h4><p class="text">Presidents Ruto and Tshisekedi agreed to restore full diplomatic relations at a summit in Oyo, Congo-Brazzaville, and pledged non-interference.</p><span class="src">BBC / ALLAFRICA</span></div><div class="item"><span class="num">09</span><h4 class="title">Spain&rsquo;s Supreme Court grants amnesty to Puigdemont</h4><p class="text">Spain&rsquo;s Supreme Court granted amnesty to Carles Puigdemont, ending the case over the 2017 independence declaration; he may return after the elections, a week away.</p><span class="src">LA NACI&Oacute;N / FOLHA / CNN</span></div><div class="item"><span class="num">10</span><h4 class="title">Burnham says closer EU ties could make next decade &lsquo;much better&rsquo;</h4><p class="text">UK Prime Minister Andy Burnham said closer EU ties could make the next decade much better, and that rejoining without another referendum would be unthinkable.</p><span class="src">GUARDIAN / SCMP</span></div><div class="item"><span class="num">11</span><h4 class="title">Tajikistan withdraws from International Criminal Court</h4><p class="text">Tajikistan began withdrawing from the ICC, the fourth country to do so, after the court found it failed to comply with a request to arrest Vladimir Putin.</p><span class="src">UPI / AL JAZEERA / THE HINDU</span></div><div class="item"><span class="num">12</span><h4 class="title">Poland says Russia twice tried to kill Ukrainian rapper</h4><p class="text">Poland said Russia twice tried to kill a Ukrainian American rapper. Denmark is expected to ask the EU for stronger action, possibly entry limits for Russians.</p><span class="src">PBS NEWSHOUR</span></div><div class="item"><span class="num">13</span><h4 class="title">Colombia asks X to suspend ex-president Petro&rsquo;s account</h4><p class="text">President Abelardo de la Espriella&rsquo;s government asked X to suspend Gustavo Petro&rsquo;s account, after Petro called for the president to resign.</p><span class="src">MERCOPRESS</span></div></div><div class="desk"><div class="deskhead">War &amp; Security</div><div class="item"><span class="num">14</span><h4 class="title">Zelensky says Ukraine sank Russian corvette Merkury at Libyan port</h4><p class="text">Ukraine said it used seven naval drones to sink the Russian corvette Merkury at Benghazi, Libya, and hit a cargo ship; Libyan officials said ten people were injured.</p><span class="src">BBC / FRANCE 24 / GUARDIAN</span></div><div class="item"><span class="num">15</span><h4 class="title">Russian strike on apartment block in Dymer kills at least 11</h4><p class="text">Rescuers pulled a 7-year-old boy and a 79-year-old woman alive from the rubble in Dymer, north of Kyiv; at least 11 people died.</p><span class="src">BBC / EURONEWS</span></div><div class="item"><span class="num">16</span><h4 class="title">Houthis claim attack on Saudi refinery; Saudi strike hits Yemen</h4><p class="text">Yemen&rsquo;s Houthis claimed an operation against Saudi Arabia&rsquo;s Rabigh refinery; the Houthi-run government said Saudi strikes killed 17 telecom workers in Lahj.</p><span class="src">CNBC / MIDDLE EAST EYE / THE HINDU</span></div><div class="item"><span class="num">17</span><h4 class="title">Oxfam says Gaza war left widespread contamination</h4><p class="text">Oxfam said signs of possible contamination appear across almost all of Gaza, called the territory a toxic wasteland and urged a cleanup. Israeli strikes continued Monday.</p><span class="src">BBC / GUARDIAN / UPI</span></div><div class="item"><span class="num">18</span><h4 class="title">Eisenkot and Herzog condemn settler arson in West Bank</h4><p class="text">Israeli leaders including President Herzog condemned violence by Jewish extremists in the West Bank; Herzog said law enforcement is working to erase &ldquo;this terrible moral stain&rdquo;.</p><span class="src">ANSA / MIDDLE EAST EYE</span></div><div class="item"><span class="num">19</span><h4 class="title">Russia-bound freighter hit by drone in Gulf of Finland</h4><p class="text">The Russian cargo ship Sparta II arrived in St. Petersburg under tow on Monday after a drone strike on Saturday; Finnish defence forces said Ukraine was likely behind it.</p><span class="src">STRAITS TIMES / BBC / TAGESSCHAU</span></div><div class="item"><span class="num">20</span><h4 class="title">Paramilitary attack kills at least 24 civilians in South Sudan</h4><p class="text">An attack by the armed wing of SPLM-IO in Tonj East killed 24 people, including seven children; four attackers also died.</p><span class="src">CTV NEWS</span></div><div class="item"><span class="num">21</span><h4 class="title">Iran flogs singer Parastoo Ahmadi for performing without hijab</h4><p class="text">Singer Parastoo Ahmadi and four team members each received 74 lashes in Qom; rights groups call flogging torture. They also face two-year bans.</p><span class="src">BBC / AL JAZEERA / GUARDIAN</span></div></div>
+<div class="desk"><div class="deskhead">Markets &amp; Business</div><div class="item"><span class="num">22</span><h4 class="title">US stocks rebound sharply after AI sell-off</h4><p class="text">US stocks surged Monday after Nvidia&rsquo;s announcement, with the S&amp;P 500 up 4.73%; the Nasdaq had fallen 10% the week before. Japan&rsquo;s Nikkei fell 5.06%.</p><span class="src">BBC BUSINESS / CNBC / UPI</span></div><div class="item"><span class="num">23</span><h4 class="title">Oil slides nearly 4% as returning supply outweighs Gulf attacks</h4><p class="text">Crude fell nearly 4% Monday as returning supply outweighed attacks in the Gulf; Brent is down about 26% over the past month at $86.72.</p><span class="src">OILPRICE</span></div><div class="item"><span class="num">24</span><h4 class="title">European gas prices jump 8.6% on cold forecast</h4><p class="text">European gas prices rose 8.6% on cold forecasts; Japan&rsquo;s spot electricity prices hit their highest since August 2022, and US natural gas rose 34% in a month.</p><span class="src">OILPRICE</span></div><div class="item"><span class="num">25</span><h4 class="title">CrowdStrike to buy Zscaler in $44 billion deal</h4><p class="text">CrowdStrike agreed to buy Zscaler for $44 billion; both are cybersecurity firms, and CrowdStrike said AI is supercharging cyberattacks.</p><span class="src">CNBC</span></div><div class="item"><span class="num">26</span><h4 class="title">ConocoPhillips to exit Norway in $4.4 billion deal</h4><p class="text">Vaar Energi agreed to buy ConocoPhillips&rsquo; Norwegian business for $4.43 billion, including Ekofisk, the field that began Norway&rsquo;s oil era in 1971.</p><span class="src">OILPRICE</span></div><div class="item"><span class="num">27</span><h4 class="title">Capita shares plunge 70% as boss quits over pensions failure</h4><p class="text">Capita&rsquo;s chief executive quit after delays to civil service pension payments; shares fell 70%. Capita has run the scheme since last year.</p><span class="src">BBC BUSINESS</span></div><div class="item"><span class="num">28</span><h4 class="title">Tata Steel to buy $1.67 billion stake in APL Apollo</h4><p class="text">Tata Steel will buy a 26.4% stake in APL Apollo, India&rsquo;s leading maker of structural steel pipes; investors reacted badly and Tata Steel shares fell.</p><span class="src">CNBC</span></div><div class="item"><span class="num">29</span><h4 class="title">Brazil cuts 2027 growth forecast to 1.8%</h4><p class="text">Brazil&rsquo;s Finance Ministry cut its 2027 growth forecast from 2.3% to 1.8% and raised its inflation forecast from 3.8% to 4.5%, the top of the target range.</p><span class="src">MERCOPRESS</span></div><div class="item"><span class="num">30</span><h4 class="title">Australia&rsquo;s treasurer warns unemployment will pass 5%</h4><p class="text">Treasurer Jim Chalmers said unemployment will exceed 5% and things will get harder; the government forecasts growth below 2% in 2027 and 2028.</p><span class="src">GUARDIAN</span></div><div class="item stats"><span class="num">$$</span><h4 class="title">BY THE NUMBERS</h4><p class="text">+33% &mdash; Nvidia shares jump as Huang is reinstated</p><p class="text">+4.73% &mdash; S&amp;P 500 rebounds after the AI sell-off</p><p class="text">$44bn &mdash; CrowdStrike agrees to buy Zscaler</p><p class="text">11 &mdash; killed in the Russian strike on Dymer</p><p class="text">24 &mdash; killed in the Banten candy factory fire</p><p class="text">4&ndash;0 &mdash; Liverpool beat Manchester United</p><span class="src">THE DAY IN FIGURES</span></div></div><div class="desk"><div class="deskhead">Disasters, Health &amp; Tech</div><div class="item"><span class="num">31</span><h4 class="title">Candy factory fire in Banten, Indonesia, kills 24; dozens missing</h4><p class="text">A fire at a candy factory in Banten province killed 24 people, with about 34 others missing; DNA is needed to identify victims.</p><span class="src">GUARDIAN / SKY NEWS / EURONEWS</span></div><div class="item"><span class="num">32</span><h4 class="title">Belgian airports shut as anti-austerity strike grounds flights</h4><p class="text">A national strike closed Belgian airports and public transport; thousands marched in Brussels and police used tear gas.</p><span class="src">FRANCE 24 / EURONEWS</span></div><div class="item"><span class="num">33</span><h4 class="title">Storm kills five and displaces thousands in Brazil town</h4><p class="text">A supercell storm struck Tupanciret&atilde; in Rio Grande do Sul, killing five people and injuring more than 250; thousands were displaced.</p><span class="src">AL JAZEERA / AFP</span></div><div class="item"><span class="num">34</span><h4 class="title">Nine shot at central California concert</h4><p class="text">Nine people were shot at a private concert in Strathmore, California, on 21 Nov; one is in critical condition, and the sheriff&rsquo;s department said it may be gang-related.</p><span class="src">EURONEWS / UPI / STRAITS TIMES</span></div><div class="item"><span class="num">35</span><h4 class="title">12,000 evacuated from Manchester concert after unknown substance</h4><p class="text">More than 12,000 fans left Manchester&rsquo;s Co-op Live arena at a Don Toliver concert after an irritant was released; over 80 were treated and one was hospitalised.</p><span class="src">FRANCE 24 / AL JAZEERA / PBS</span></div><div class="item"><span class="num">36</span><h4 class="title">Pancreatic cancer drug trial shrinks tumours, some vanish</h4><p class="text">A new drug shrank tumours in a clinical trial, and in a small share of patients the tumours disappeared; longer trials are still needed.</p><span class="src">BBC CHINESE</span></div><div class="item"><span class="num">37</span><h4 class="title">FDA-approved drug may cure hormone-driven high blood pressure</h4><p class="text">Doctors reported an approved drug may cure high blood pressure caused by hormones, offering long-lasting relief to millions.</p><span class="src">GOOD NEWS NETWORK</span></div><div class="item"><span class="num">38</span><h4 class="title">New thumb implant treats severe arthritis</h4><p class="text">A new method replaces the thumb joint like a hip or shoulder replacement, aiming to improve hand function in advanced arthritis; it avoids removing the trapezium bone.</p><span class="src">GOOD NEWS NETWORK</span></div><div class="item"><span class="num">39</span><h4 class="title">US states sue Musk firms over Grok sexualised images</h4><p class="text">Virginia and Oregon sued SpaceX and X over the Grok chatbot, saying it let users make sexualised images without consent; they seek civil penalties.</p><span class="src">AL JAZEERA / CNBC / SCMP</span></div><div class="item"><span class="num">40</span><h4 class="title">US blacklists Asian AI firm Megaspeed after Nvidia scandal</h4><p class="text">The US added Singapore-based Megaspeed to its entity list for allegedly funnelling AI chips to China; the US also moved to seize $1.1 billion in crypto stolen by North Korean hackers.</p><span class="src">BBC / STRAITS TIMES / CNBC</span></div></div><div class="desk"><div class="deskhead">Science, Culture &amp; Sport</div><div class="item"><span class="num">41</span><h4 class="title">Robot submarine finds unprecedented volcanic activity in Mariana Trench</h4><p class="text">A robot submarine exploring the Mariana Trench found volcanic activity not seen before there; the trench formed 52 million years ago.</p><span class="src">PHYS.ORG</span></div><div class="item"><span class="num">42</span><h4 class="title">Giant tortoises restore lost ecosystem on Aride Island</h4><p class="text">Ten Aldabra giant tortoises were released on Aride Island in the Seychelles; scientists said an ecosystem lost for nearly two centuries returned within six months.</p><span class="src">LA NACI&Oacute;N</span></div><div class="item"><span class="num">43</span><h4 class="title">Tamagotchi marks 30th anniversary</h4><p class="text">Bandai&rsquo;s Tamagotchi digital pet marked the 30th anniversary of its release on Monday; the toy has won fans across generations in Japan and abroad.</p><span class="src">JAPAN TIMES</span></div><div class="item"><span class="num">44</span><h4 class="title">Ancient hairy snail named after Prodigy singer</h4><p class="text">Scientists named a nearly 100-million-year-old hairy snail after the lead singer of the Prodigy; the fossil is preserved in Myanmar amber.</p><span class="src">PHYS.ORG</span></div><div class="item"><span class="num">45</span><h4 class="title">Fungus from Chernobyl could help trap nerve agents</h4><p class="text">Researchers found black moulds growing inside the Chernobyl exclusion zone; the fungus could help create materials that trap and break down nerve agents and pesticides.</p><span class="src">PHYS.ORG</span></div><div class="item"><span class="num">46</span><h4 class="title">US confirmed to host 2031 Women&rsquo;s World Cup; UK hosts 2035</h4><p class="text">FIFA confirmed the US, Mexico, Costa Rica and Jamaica as 2031 Women&rsquo;s World Cup hosts, and the UK will host in 2035.</p><span class="src">PBS / CBS / AFRICANEWS</span></div><div class="item"><span class="num">47</span><h4 class="title">Liverpool beat Manchester United 4-0 in Pochettino&rsquo;s debut</h4><p class="text">Mauricio Pochettino lost his first game as United manager 4-0 at Liverpool.</p><span class="src">AL JAZEERA</span></div><div class="item"><span class="num">48</span><h4 class="title">Simeone sets La Liga record with 345th win</h4><p class="text">Diego Simeone recorded his 345th La Liga victory as Atl&eacute;tico Madrid manager, a new league record.</p><span class="src">BBC SPORT</span></div><div class="item"><span class="num">49</span><h4 class="title">Mets sign first baseman Paul Goldschmidt</h4><p class="text">The New York Mets agreed a one-year contract with first baseman Paul Goldschmidt worth $8 million; he spent the last two seasons with the Yankees.</p><span class="src">UPI / YONHAP</span></div><div class="item"><span class="num">50</span><h4 class="title">Marco Penge wins RSM Classic in a four-man play-off</h4><p class="text">England&rsquo;s Marco Penge won a four-man play-off to take the RSM Classic in Georgia; the win gives him his first PGA Tour title and a tour card for 2027.</p><span class="src">BBC SPORT / SKY SPORTS</span></div></div>
+  </div>
+
+  <footer class="footnote">Monday 23 November 2026 &mdash; 50 stories, all sourced &middot; timeline in UTC, times approximate, as reported through the day<br>
+  The Daily Globe &middot; a make.fun entry &middot; sources: One Turn digest, BBC, Al Jazeera, France 24, Guardian, CNBC, and the outlets named on each story</footer>
+</body>
+</html>
